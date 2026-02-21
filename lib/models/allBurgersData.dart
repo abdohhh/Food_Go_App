@@ -1,0 +1,282 @@
+class allburgersdata {
+  final String name;
+  final String image;
+  final String shop;
+  final double price;
+  final double rating;
+  final String time;
+  final String description;
+  final double spicy;
+  final int portion;
+  final String category;
+  final bool isFavorite;
+
+  allburgersdata({
+    required this.name,
+    required this.image,
+    required this.shop,
+    required this.price,
+    required this.rating,
+    required this.time,
+    required this.description,
+    required this.spicy,
+    required this.portion,
+    required this.category,
+    required this.isFavorite,
+  });
+}
+
+List<allburgersdata> AllBurgersData = [
+  allburgersdata(
+    name: "Cheeseburger Wendy's Burger",
+    shop: "Wendy's Burger",
+    price: 8.24,
+    rating: 4.9,
+    time: "26 mins",
+    image: "assets/burger_wendy.png",
+    description:
+        "The Cheeseburger Wendy's Burger is a classic fast food burger that packs a punch of flavor in every bite. Made with a juicy beef patty cooked to perfection, it's topped with melted American cheese, crispy lettuce, ripe tomato, and crunchy pickles.",
+    spicy: 0.3,
+    portion: 2,
+    category: "All",
+    isFavorite: false,
+  ),
+  allburgersdata(
+    name: "Hamburger Veggie Burger",
+    shop: "Veggie Burger",
+    price: 9.99,
+    rating: 4.8,
+    time: "14 mins",
+    image: "assets/burger_veggie.png",
+    description:
+        "Enjoy our delicious Hamburger Veggie Burger, made with a savory blend of fresh vegetables and herbs, topped with crisp lettuce, juicy tomatoes, and tangy pickles, all served on a soft, toasted bun.",
+    spicy: 0.1,
+    portion: 1,
+    category: "All",
+    isFavorite: true,
+  ),
+  allburgersdata(
+    name: "Hamburger Chicken Burger",
+    shop: "Chicken Burger",
+    price: 12.48,
+    rating: 4.6,
+    time: "42 mins",
+    image: "assets/burger_chicken.png",
+    description:
+        "Our chicken burger is a delicious and healthier alternative to traditional beef burgers, perfect for those looking for a lighter meal option. Try it today and experience the mouth-watering flavors of our Hamburger Chicken Burger!",
+    spicy: 0.6,
+    portion: 2,
+    category: "All",
+    isFavorite: false,
+  ),
+  allburgersdata(
+    name: "Hamburger Fried Chicken Burger",
+    shop: "Fried Chicken Burger",
+    price: 10.50,
+    rating: 4.5,
+    time: "28 mins",
+    image: "assets/burger_fried.png",
+    description:
+        "A crispy and succulent fried chicken patty, topped with fresh lettuce, tomato, and a tangy special sauce, all nestled in a soft, toasted bun. A satisfying crunch in every bite!",
+    spicy: 0.8,
+    portion: 1,
+    category: "All",
+    isFavorite: false,
+  ),
+  allburgersdata(
+    name: "Hamburger Fried Chicken Burger",
+    shop: "Fried Chicken Burger",
+    price: 10.50,
+    rating: 4.5,
+    time: "28 mins",
+    image: "assets/burger_fried.png",
+    description:
+        "A crispy and succulent fried chicken patty, topped with fresh lettuce, tomato, and a tangy special sauce, all nestled in a soft, toasted bun. A satisfying crunch in every bite!",
+    spicy: 0.8,
+    portion: 1,
+    category: "All",
+    isFavorite: false,
+  ),
+  allburgersdata(
+    name: "Hamburger Fried Chicken Burger",
+    shop: "Fried Chicken Burger",
+    price: 10.50,
+    rating: 4.5,
+    time: "28 mins",
+    image: "assets/burger_fried.png",
+    description:
+        "A crispy and succulent fried chicken patty, topped with fresh lettuce, tomato, and a tangy special sauce, all nestled in a soft, toasted bun. A satisfying crunch in every bite!",
+    spicy: 0.8,
+    portion: 1,
+    category: "All",
+    isFavorite: false,
+  ),
+  allburgersdata(
+    name: "Cheeseburger Wendy's Burger",
+    shop: "Wendy's Burger",
+    price: 8.24,
+    rating: 4.9,
+    time: "26 mins",
+    image: "assets/burger_wendy.png",
+    description:
+        "The Cheeseburger Wendy's Burger is a classic fast food burger that packs a punch of flavor in every bite. Made with a juicy beef patty cooked to perfection, it's topped with melted American cheese, crispy lettuce, ripe tomato, and crunchy pickles.",
+    spicy: 0.3,
+    portion: 2,
+    category: "All",
+    isFavorite: false,
+  ),
+  allburgersdata(
+    name: "Hamburger Veggie Burger",
+    shop: "Veggie Burger",
+    price: 9.99,
+    rating: 4.8,
+    time: "14 mins",
+    image: "assets/burger_veggie.png",
+    description:
+        "Enjoy our delicious Hamburger Veggie Burger, made with a savory blend of fresh vegetables and herbs, topped with crisp lettuce, juicy tomatoes, and tangy pickles, all served on a soft, toasted bun.",
+    spicy: 0.1,
+    portion: 1,
+    category: "All",
+    isFavorite: true,
+  ),
+  allburgersdata(
+    name: "Hamburger Chicken Burger",
+    shop: "Chicken Burger",
+    price: 12.48,
+    rating: 4.6,
+    time: "42 mins",
+    image: "assets/burger_chicken.png",
+    description:
+        "Our chicken burger is a delicious and healthier alternative to traditional beef burgers, perfect for those looking for a lighter meal option. Try it today and experience the mouth-watering flavors of our Hamburger Chicken Burger!",
+    spicy: 0.6,
+    portion: 2,
+    category: "All",
+    isFavorite: false,
+  ),
+  allburgersdata(
+    name: "Hamburger Fried Chicken Burger",
+    shop: "Fried Chicken Burger",
+    price: 10.50,
+    rating: 4.5,
+    time: "28 mins",
+    image: "assets/burger_fried.png",
+    description:
+        "A crispy and succulent fried chicken patty, topped with fresh lettuce, tomato, and a tangy special sauce, all nestled in a soft, toasted bun. A satisfying crunch in every bite!",
+    spicy: 0.8,
+    portion: 1,
+    category: "All",
+    isFavorite: false,
+  ),
+  allburgersdata(
+    name: "Hamburger Fried Chicken Burger",
+    shop: "Fried Chicken Burger",
+    price: 10.50,
+    rating: 4.5,
+    time: "28 mins",
+    image: "assets/burger_fried.png",
+    description:
+        "A crispy and succulent fried chicken patty, topped with fresh lettuce, tomato, and a tangy special sauce, all nestled in a soft, toasted bun. A satisfying crunch in every bite!",
+    spicy: 0.8,
+    portion: 1,
+    category: "All",
+    isFavorite: false,
+  ),
+  allburgersdata(
+    name: "Hamburger Fried Chicken Burger",
+    shop: "Fried Chicken Burger",
+    price: 10.50,
+    rating: 4.5,
+    time: "28 mins",
+    image: "assets/burger_fried.png",
+    description:
+        "A crispy and succulent fried chicken patty, topped with fresh lettuce, tomato, and a tangy special sauce, all nestled in a soft, toasted bun. A satisfying crunch in every bite!",
+    spicy: 0.8,
+    portion: 1,
+    category: "All",
+    isFavorite: false,
+  ),
+  allburgersdata(
+    name: "Cheeseburger Wendy's Burger",
+    shop: "Wendy's Burger",
+    price: 8.24,
+    rating: 4.9,
+    time: "26 mins",
+    image: "assets/burger_wendy.png",
+    description:
+        "The Cheeseburger Wendy's Burger is a classic fast food burger that packs a punch of flavor in every bite. Made with a juicy beef patty cooked to perfection, it's topped with melted American cheese, crispy lettuce, ripe tomato, and crunchy pickles.",
+    spicy: 0.3,
+    portion: 2,
+    category: "All",
+    isFavorite: false,
+  ),
+  allburgersdata(
+    name: "Hamburger Veggie Burger",
+    shop: "Veggie Burger",
+    price: 9.99,
+    rating: 4.8,
+    time: "14 mins",
+    image: "assets/burger_veggie.png",
+    description:
+        "Enjoy our delicious Hamburger Veggie Burger, made with a savory blend of fresh vegetables and herbs, topped with crisp lettuce, juicy tomatoes, and tangy pickles, all served on a soft, toasted bun.",
+    spicy: 0.1,
+    portion: 1,
+    category: "All",
+    isFavorite: true,
+  ),
+  allburgersdata(
+    name: "Hamburger Chicken Burger",
+    shop: "Chicken Burger",
+    price: 12.48,
+    rating: 4.6,
+    time: "42 mins",
+    image: "assets/burger_chicken.png",
+    description:
+        "Our chicken burger is a delicious and healthier alternative to traditional beef burgers, perfect for those looking for a lighter meal option. Try it today and experience the mouth-watering flavors of our Hamburger Chicken Burger!",
+    spicy: 0.6,
+    portion: 2,
+    category: "All",
+    isFavorite: false,
+  ),
+  allburgersdata(
+    name: "Hamburger Fried Chicken Burger",
+    shop: "Fried Chicken Burger",
+    price: 10.50,
+    rating: 4.5,
+    time: "28 mins",
+    image: "assets/burger_fried.png",
+    description:
+        "A crispy and succulent fried chicken patty, topped with fresh lettuce, tomato, and a tangy special sauce, all nestled in a soft, toasted bun. A satisfying crunch in every bite!",
+    spicy: 0.8,
+    portion: 1,
+    category: "All",
+    isFavorite: false,
+  ),
+  allburgersdata(
+    name: "Hamburger Fried Chicken Burger",
+    shop: "Fried Chicken Burger",
+    price: 10.50,
+    rating: 4.5,
+    time: "28 mins",
+    image: "assets/burger_fried.png",
+    description:
+        "A crispy and succulent fried chicken patty, topped with fresh lettuce, tomato, and a tangy special sauce, all nestled in a soft, toasted bun. A satisfying crunch in every bite!",
+    spicy: 0.8,
+    portion: 1,
+    category: "All",
+    isFavorite: false,
+  ),
+  allburgersdata(
+    name: "Hamburger Fried Chicken Burger",
+    shop: "Fried Chicken Burger",
+    price: 10.50,
+    rating: 4.5,
+    time: "28 mins",
+    image: "assets/burger_fried.png",
+    description:
+        "A crispy and succulent fried chicken patty, topped with fresh lettuce, tomato, and a tangy special sauce, all nestled in a soft, toasted bun. A satisfying crunch in every bite!",
+    spicy: 0.8,
+    portion: 1,
+    category: "All",
+    isFavorite: false,
+  ),
+];
